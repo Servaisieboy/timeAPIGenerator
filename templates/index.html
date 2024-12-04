@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create City API</title>
+    <script src="/static/script.js" defer></script>
+</head>
+<body>
+    <h1>Create a Time API for Your City</h1>
+    <form id="city-form">
+        <label for="city">City Name:</label>
+        <input type="text" id="city" name="city" required><br><br>
+        <label for="timezone">Timezone:</label>
+        <input type="text" id="timezone" name="timezone" placeholder="e.g., Europe/Lisbon" required><br><br>
+        <button type="submit">Create API</button>
+    </form>
+    <div id="response"></div>
+</body>
+</html>
